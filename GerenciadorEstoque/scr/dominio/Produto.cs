@@ -6,7 +6,7 @@ using GerenciadorEstoque.src.utils;
 namespace GerenciadorEstoque.src.dominio {
     class Produto : ObjetoBanco {
 
-		Enum tipoUnidade {
+		enum tipoUnidade {
 			Litros = "l",
 			Quilogramas = "kg",
 			Simples = "Und."
