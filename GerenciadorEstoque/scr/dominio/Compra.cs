@@ -10,7 +10,7 @@ namespace GerenciadorEstoque.src.dominio {
         public Fornecedor Fornecedor { get; set; }
         public List<Unidade> MateriasPrimasUsadas { get; set; }
 		public List<Unidade> produtosComprados { get; set; }
-		public Decimal valorTotal { get =>  produtosComprados.valorCompra.Sum(); }
-		public Dat data { get; set; }
+		public Decimal valorTotal { get; }
+		public DateTime data { get; set; }
     }
 }

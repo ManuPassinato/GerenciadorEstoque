@@ -8,7 +8,7 @@ namespace GerenciadorEstoque.src.dominio {
 
         public long codigoVenda { get; set; }
         public List<Unidade> produtosVendidos { get; set; }
-		public Decimal valorTotal { get => produtosVendidos.valorVenda.Sum(); }
-		public Dat data { get; set; }
+		public Decimal valorTotal { get; }
+		public DateTime data { get; set; }
     }
 }
