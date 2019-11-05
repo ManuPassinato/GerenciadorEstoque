@@ -55,7 +55,7 @@
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="scr\dominio\ObjetoBanco.cs" />
-    <Compile Include="scr\dominio\GrupoProduto.cs" />
+    <Compile Include="scr\dominio\Unidade.cs" />
 	<Compile Include="scr\dominio\Produto.cs" />
 	<Compile Include="scr\dominio\Venda.cs" />
 	<Compile Include="scr\dominio\Compra.cs" />
