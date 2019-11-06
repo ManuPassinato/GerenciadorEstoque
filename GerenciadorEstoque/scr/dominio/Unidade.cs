@@ -7,7 +7,7 @@ namespace GerenciadorEstoque.src.dominio {
     class Unidade : Produto {
 	
         public long codigoProduto { get; set; }
-		private sealed Produto grupoProduto { get; }
+		private Produto grupoProduto { get; }
         public Decimal quantidade { get; set; }
 		public Decimal valorVenda { get; set; }
 		public Decimal valorCompra { get; set; }

@@ -7,10 +7,10 @@ namespace GerenciadorEstoque.src.dominio {
     class Produto : ObjetoBanco {
 
 		enum tipoUnidade {
-			Litros = "l",
-			Quilogramas = "kg",
-			Simples = "Und."
-		}
+			Litros,
+			Quilogramas,
+			Simples
+        }
 
         protected string nome;
         public String Nome {
@@ -20,6 +20,5 @@ namespace GerenciadorEstoque.src.dominio {
         public long codigoGrupo { get; set; }
         public Boolean isProdutoFinal { get; set; }
         public List<Produto> materiasPrimas { get; set; }
-		public tipoUnidade unidade { get; set; }
     }
 }

@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.28307.757
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29424.173
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GerenciadorEstoque", "GerenciadorEstoque\GerenciadorEstoque.csproj", "{A33B43B9-7F5E-4542-95BF-DB78814CE807}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GerenciadorEstoqueTest", "GerenciadorEstoqueTest\GerenciadorEstoqueTest.csproj", "{6A456906-7194-4C44-905E-4406F54DB76A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{A33B43B9-7F5E-4542-95BF-DB78814CE807}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A33B43B9-7F5E-4542-95BF-DB78814CE807}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A33B43B9-7F5E-4542-95BF-DB78814CE807}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6A456906-7194-4C44-905E-4406F54DB76A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A456906-7194-4C44-905E-4406F54DB76A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A456906-7194-4C44-905E-4406F54DB76A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A456906-7194-4C44-905E-4406F54DB76A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

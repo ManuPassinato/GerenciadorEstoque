@@ -9,9 +9,34 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace GerenciadorEstoque {
-    public partial class Form1 : Form {
-        public Form1() {
+    public partial class Home : Form {
+        public Home() {
             InitializeComponent();
+        }
+
+        private void Nome_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void botaoListaProdutos_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
