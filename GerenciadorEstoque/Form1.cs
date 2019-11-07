@@ -133,20 +133,20 @@ namespace GerenciadorEstoque {
 
         private void Home_Load(object sender, EventArgs e)
         {
-            //----------Botão Preto ----------------------------
-            //GraphicsPath raioElipseBotaoPreto = new GraphicsPath();
-            //raioElipseBotaoPreto.StartFigure();
-            //raioElipseBotaoPreto.AddLine(0, 0, botaoPlanilhaPreto.Width, 0);
-            //raioElipseBotaoPreto.AddLine(botaoPlanilhaPreto.Width, 0, botaoPlanilhaPreto.Width, botaoPlanilhaPreto.Height - 10);
-            //raioElipseBotaoPreto.AddArc(new Rectangle(botaoPlanilhaPreto.Width - 10, botaoPlanilhaPreto.Height - 10, 10, 10), 0, 90);
-            //raioElipseBotaoPreto.AddLine(botaoPlanilhaPreto.Width - 10, botaoPlanilhaPreto.Height, 20, botaoPlanilhaPreto.Height);
-            //raioElipseBotaoPreto.AddArc(new Rectangle(0, botaoPlanilhaPreto.Height - 10, 10, 10), 90, 90);
-            //raioElipseBotaoPreto.CloseAllFigures();
-            //botaoPlanilhaPreto.Region = new Region(raioElipseBotaoPreto);
+            /*//----------Botão Preto ----------------------------
+            GraphicsPath raioElipseBotaoPreto = new GraphicsPath();
+            raioElipseBotaoPreto.StartFigure();
+            raioElipseBotaoPreto.AddLine(0, 0, botaoPlanilhaPreto.Width, 0);
+            raioElipseBotaoPreto.AddLine(botaoPlanilhaPreto.Width, 0, botaoPlanilhaPreto.Width, botaoPlanilhaPreto.Height - 10);
+            raioElipseBotaoPreto.AddArc(new Rectangle(botaoPlanilhaPreto.Width - 10, botaoPlanilhaPreto.Height - 10, 10, 10), 0, 90);
+            raioElipseBotaoPreto.AddLine(botaoPlanilhaPreto.Width - 10, botaoPlanilhaPreto.Height, 20, botaoPlanilhaPreto.Height);
+            raioElipseBotaoPreto.AddArc(new Rectangle(0, botaoPlanilhaPreto.Height - 10, 10, 10), 90, 90);
+            raioElipseBotaoPreto.CloseAllFigures();
+            botaoPlanilhaPreto.Region = new Region(raioElipseBotaoPreto);
             //----------Botão vermelho ----------------------------
-            //GraphicsPath raioElipseBotaoVermelho = new GraphicsPath();
-            //raioElipseBotaoVermelho.StartFigure();
-            /*raioElipseBotaoVermelho.AddLine(0, 0, botaoPlanilhaPreto.Width, 0);
+            GraphicsPath raioElipseBotaoVermelho = new GraphicsPath();
+            raioElipseBotaoVermelho.StartFigure();
+            raioElipseBotaoVermelho.AddLine(0, 0, botaoPlanilhaPreto.Width, 0);
             raioElipseBotaoVermelho.AddLine(botaoPlanilhaVermelho.Width, 0, botaoPlanilhaVermelho.Width, botaoPlanilhaVermelho.Height - 10);
             raioElipseBotaoVermelho.AddArc(new Rectangle(botaoPlanilhaVermelho.Width - 10, botaoPlanilhaVermelho.Height - 10, 10, 10), 0, 90);
             raioElipseBotaoVermelho.AddLine(botaoPlanilhaVermelho.Width - 10, botaoPlanilhaVermelho.Height, 20, botaoPlanilhaVermelho.Height);
