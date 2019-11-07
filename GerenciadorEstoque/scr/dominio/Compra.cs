@@ -13,4 +13,5 @@ namespace GerenciadorEstoque.src.dominio {
 		public Decimal valorTotal { get; }
 		public DateTime data { get; set; }
     }
+
 }
