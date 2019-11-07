@@ -6,11 +6,11 @@ using GerenciadorEstoque.src.utils;
 namespace GerenciadorEstoque.src.dominio {
     class Compra : ObjetoBanco {
 
-        public long Codigo { get; set; }
+        public Produto produto { get; set; }
         public Fornecedor Fornecedor { get; set; }
-        public List<Unidade> MateriasPrimasUsadas { get; set; }
-		public List<Unidade> produtosComprados { get; set; }
-		public Decimal valorTotal { get; }
+
+		public Decimal valorTotal { get; set; }
+        public Decimal quantidade { get; set; }
 		public DateTime data { get; set; }
     }
 }

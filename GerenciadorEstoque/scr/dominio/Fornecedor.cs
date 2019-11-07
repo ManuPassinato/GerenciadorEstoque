@@ -11,7 +11,10 @@ namespace GerenciadorEstoque.src.dominio {
             get => nome;
             set => nome = StringUtils.ValideNaoNuloNaoVazioENormalize(value, "Nome do Fornecedor");
         }
-        public long codigoFornecedor { get; set; }
-        public String Contato { get; set; }
+        public String telefone1 { get; set; }
+        public String telefone2 { get; set; }
+        public String cnpj { get; set; }
+        public String email { get; set; }
+
     }
 }

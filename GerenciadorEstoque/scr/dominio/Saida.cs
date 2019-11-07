@@ -6,9 +6,9 @@ using GerenciadorEstoque.src.utils;
 namespace GerenciadorEstoque.src.dominio {
     class Venda : ObjetoBanco {
 
-        public long codigoVenda { get; set; }
-        public List<Unidade> produtosVendidos { get; set; }
-		public Decimal valorTotal { get; }
+        public Produto Produto { get; set; }
+		public Decimal valorTotal { get; set; }
+        public Decimal quantidade { get; set; }
 		public DateTime data { get; set; }
     }
 }
