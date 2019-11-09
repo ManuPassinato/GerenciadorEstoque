@@ -4,7 +4,7 @@ using GerenciadorEstoque.src.utils;
 
 
 namespace GerenciadorEstoque.src.dominio {
-    class Venda : ObjetoBanco {
+    class Saida : ObjetoBanco {
 
         public Produto Produto { get; set; }
 		public Decimal valorTotal { get; set; }

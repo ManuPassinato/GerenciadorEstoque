@@ -4,7 +4,7 @@ using GerenciadorEstoque.src.utils;
 
 
 namespace GerenciadorEstoque.src.dominio {
-    class Compra : ObjetoBanco {
+    class Entrada : ObjetoBanco {
 
         public Produto produto { get; set; }
         public Fornecedor Fornecedor { get; set; }
