@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using GerenciadorEstoque.scr.dominio;
 using GerenciadorEstoque.scr.dominio.enums;
 using GerenciadorEstoque.src.utils;
 
@@ -14,7 +15,7 @@ namespace GerenciadorEstoque.src.dominio {
         }
 
         public long codigo { get; set; }
-        public List<Produto> materiasPrimas { get; set; }
+        public List<MateriaPrima> materiasPrimas { get; set; }
         public Decimal quantidade { get; set; }
         public Decimal custoUnidade { get; set; }
 
